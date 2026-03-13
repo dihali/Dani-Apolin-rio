@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ═══ SEO PRIMÁRIO ═══ -->
+  <title>Fisioterapia Pélvica e Pilates em Toledo PR | Danielle Apolinário</title>
+  <meta name="description" content="Fisioterapeuta pélvica e instrutora de Pilates Clássico em Toledo PR. Tratamento de incontinência urinária, dor na relação, gestação e pós-parto. Atendimento presencial e online." />
+  <meta name="keywords" content="fisioterapia pélvica Toledo PR, pilates Toledo Paraná, fisioterapeuta pélvica Toledo, pilates gestante Toledo, incontinência urinária Toledo, dor na relação fisioterapia, fisioterapia uroginecológica Toledo, Danielle Apolinário fisioterapeuta" />
+  <meta name="author" content="Danielle Apolinário" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://fisiodaniapolinario.com.br/" />
+
+  <!-- ═══ OPEN GRAPH (WhatsApp / Facebook) ═══ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fisiodaniapolinario.com.br/" />
+  <meta property="og:title" content="Fisioterapia Pélvica e Pilates em Toledo PR | Danielle Apolinário" />
+  <meta property="og:description" content="Especialista em Fisioterapia Pélvica e Pilates Clássico em Toledo PR. Atendimento presencial e online para todo o Brasil." />
+  <meta property="og:image" content="https://i.ibb.co/yFJd3tLj/image-Pippit-202603130755.png" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Danielle Apolinário | Fisioterapia Pélvica e Pilates" />
+
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fisioterapia Pélvica e Pilates em Toledo PR | Danielle Apolinário" />
+  <meta name="twitter:description" content="Especialista em Fisioterapia Pélvica e Pilates Clássico em Toledo PR." />
+  <meta name="twitter:image" content="https://i.ibb.co/yFJd3tLj/image-Pippit-202603130755.png" />
+
+  <!-- ═══ SCHEMA.ORG — NEGÓCIO LOCAL ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Danielle Apolinário — Fisioterapia Pélvica e Pilates",
+    "description": "Especialista em Fisioterapia Pélvica e Pilates Clássico. Atendimento de incontinência urinária, dor na relação, gestação, pós-parto e endometriose.",
+    "url": "https://fisiodaniapolinario.com.br",
+    "telephone": "+5545999180697",
+    "image": "https://i.ibb.co/yFJd3tLj/image-Pippit-202603130755.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toledo",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -24.7245,
+      "longitude": -53.7436
+    },
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "sameAs": [
+      "https://www.instagram.com/fisiodaniapolinarioo"
+    ],
+    "hasMap": "https://maps.google.com/?q=Toledo,PR",
+    "medicalSpecialty": "PhysicalTherapy",
+    "availableService": [
+      {
+        "@type": "MedicalTherapy",
+        "name": "Fisioterapia Pélvica",
+        "description": "Tratamento de disfunções do assoalho pélvico, incontinência urinária, dor na relação e endometriose"
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Pilates Clássico",
+        "description": "Pilates clássico para gestantes, condicionamento físico e alívio de dores"
+      }
+    ]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --gold: #C4768A;
+      --gold-light: #d4909f;
+      --gold-dark: #a85e72;
+      --bg: #F9F7F2;
+      --dark: #1a1a1a;
+      --text: #2d2d2d;
+      --text-light: #6b6b6b;
+      --white: #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; width: 100%; z-index: 100;
+      padding: 18px 5%;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(249,247,242,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(197,160,89,0.2);
+      transition: box-shadow 0.3s;
+    }
+    nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.08); }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--dark);
+      line-height: 1.2;
+      text-decoration: none;
+    }
+    .nav-logo span { display: block; font-size: 0.6rem; letter-spacing: 0.2em; color: var(--gold); font-family: 'Montserrat', sans-serif; font-weight: 500; text-transform: uppercase; }
+
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--text); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; transition: color 0.3s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-cta {
+      background: var(--gold); color: var(--white);
+      padding: 10px 22px; border-radius: 30px;
+      text-decoration: none; font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .nav-cta:hover { background: var(--gold-dark); transform: translateY(-1px); }
+
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { width: 22px; height: 2px; background: var(--dark); transition: 0.3s; }
+
+    /* ─── HERO ─── */
+    #hero {
+      height: 100vh; min-height: 600px;
+      position: relative; overflow: hidden;
+      display: flex; align-items: center;
+    }
+
+    .hero-bg {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, #e8e0d0 0%, #f0ebe0 40%, #e5ddd0 100%);
+      animation: kenBurns 18s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+    @keyframes kenBurns {
+      0%   { transform: scale(1)    translateX(0)     translateY(0); }
+      100% { transform: scale(1.08) translateX(-1.5%) translateY(-1%); }
+    }
+
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to right, rgba(249,247,242,0.85) 50%, rgba(249,247,242,0.3) 100%);
+    }
+
+    .hero-content {
+      position: relative; z-index: 2;
+      width: 55%; padding-left: 8%;
+    }
+
+    .hero-tag {
+      display: inline-block;
+      font-size: 0.68rem; font-weight: 600; letter-spacing: 0.25em; text-transform: uppercase;
+      color: var(--gold); border: 1px solid var(--gold);
+      padding: 6px 16px; border-radius: 20px; margin-bottom: 1.5rem; margin-top: 90px;
+      opacity: 0; animation: fadeUp 0.8s 0.3s forwards;
+    }
+
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 4.5vw, 4rem);
+      line-height: 1.15; color: var(--dark);
+      margin-bottom: 1rem;
+      opacity: 0; animation: fadeUp 0.8s 0.5s forwards;
+    }
+    .hero-title em { color: var(--gold); font-style: italic; }
+
+    .hero-sub {
+      font-size: 0.95rem; color: var(--text-light);
+      line-height: 1.8; max-width: 420px;
+      margin-bottom: 2.5rem;
+      opacity: 0; animation: fadeUp 0.8s 0.7s forwards;
+    }
+
+    .hero-btns {
+      display: flex; gap: 1rem; flex-wrap: wrap;
+      opacity: 0; animation: fadeUp 0.8s 0.9s forwards;
+    }
+
+    .btn-primary {
+      background: var(--gold); color: var(--white);
+      padding: 14px 32px; border-radius: 40px;
+      text-decoration: none; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      transition: all 0.3s; display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 4px 20px rgba(197,160,89,0.35);
+    }
+    .btn-primary:hover { background: var(--gold-dark); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(197,160,89,0.45); }
+
+    .btn-outline {
+      border: 1.5px solid var(--gold); color: var(--gold);
+      padding: 14px 32px; border-radius: 40px;
+      text-decoration: none; font-size: 0.78rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      transition: all 0.3s;
+    }
+    .btn-outline:hover { background: var(--gold); color: var(--white); transform: translateY(-2px); }
+
+    .hero-img {
+      position: absolute; right: 0; bottom: 0;
+      width: 42%; height: 90%;
+      object-fit: cover; object-position: top;
+      border-radius: 300px 300px 0 0;
+      opacity: 0; animation: fadeIn 1.2s 0.6s forwards;
+    }
+
+    .hero-scroll {
+      position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      color: var(--text-light); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase;
+      opacity: 0; animation: fadeUp 0.8s 1.4s forwards;
+    }
+    .hero-scroll::after {
+      content: ''; width: 1px; height: 40px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+      animation: scrollLine 2s ease-in-out infinite;
+    }
+    @keyframes scrollLine { 0%,100%{opacity:1;transform:scaleY(1)} 50%{opacity:0.3;transform:scaleY(0.5)} }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* ─── SEÇÕES GERAIS ─── */
+    section { padding: 90px 8%; }
+
+    .section-label {
+      font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase;
+      color: var(--gold); font-weight: 600; margin-bottom: 0.8rem;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      line-height: 1.2; color: var(--dark); margin-bottom: 1.2rem;
+    }
+    .section-title em { color: var(--gold); font-style: italic; }
+    .section-divider {
+      width: 50px; height: 2px; background: var(--gold);
+      margin-bottom: 2rem;
+    }
+
+    /* ─── SOBRE ─── */
+    #sobre {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 6rem; align-items: center;
+      background: var(--white);
+    }
+
+    .sobre-img-wrap {
+      position: relative;
+    }
+    .sobre-img-wrap::before {
+      content: ''; position: absolute;
+      top: -20px; left: -20px;
+      width: 100%; height: 100%;
+      border: 2px solid var(--gold);
+      border-radius: 200px 200px 20px 20px;
+      opacity: 0.3;
+    }
+    .sobre-img {
+      width: 100%; border-radius: 200px 200px 20px 20px;
+      object-fit: cover; aspect-ratio: 3/4;
+      display: block;
+    }
+
+    .sobre-badge {
+      position: absolute; bottom: 30px; right: -20px;
+      background: var(--gold); color: var(--white);
+      padding: 16px 22px; border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(197,160,89,0.4);
+    }
+    .sobre-badge strong { font-size: 1.8rem; font-family: 'Playfair Display', serif; display: block; }
+    .sobre-badge span { font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; }
+
+    .formacao-list { list-style: none; margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.9rem; }
+    .formacao-list li {
+      display: flex; align-items: flex-start; gap: 12px;
+      font-size: 0.82rem; line-height: 1.6; color: var(--text);
+    }
+    .formacao-list li::before {
+      content: ''; flex-shrink: 0;
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--gold); margin-top: 7px;
+    }
+
+    /* ─── VISÃO ─── */
+    #visao {
+      background: var(--bg);
+      text-align: center;
+    }
+    .visao-text {
+      max-width: 700px; margin: 0 auto 3rem;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+      line-height: 1.6; color: var(--dark);
+      font-style: italic;
+    }
+    .visao-text strong { color: var(--gold); font-style: normal; }
+
+    .visao-fotos {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 16px; margin-top: 3rem;
+    }
+    .visao-foto {
+      aspect-ratio: 3/4;
+      background: #d8d0c4;
+      border-radius: 100px 100px 10px 10px;
+      overflow: hidden;
+      transition: transform 0.4s;
+    }
+    .visao-foto:hover { transform: translateY(-8px); }
+    .visao-foto img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* ─── SERVIÇOS ─── */
+    #servicos { background: var(--white); }
+
+    .servicos-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 2rem; margin-top: 2.5rem;
+    }
+
+    .servico-card {
+      border: 1px solid rgba(197,160,89,0.25);
+      border-radius: 20px; padding: 2.5rem;
+      transition: all 0.4s; position: relative; overflow: hidden;
+    }
+    .servico-card::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: var(--gold); transform: scaleX(0);
+      transform-origin: left; transition: transform 0.4s;
+    }
+    .servico-card:hover { border-color: var(--gold); box-shadow: 0 12px 40px rgba(197,160,89,0.15); transform: translateY(-4px); }
+    .servico-card:hover::before { transform: scaleX(1); }
+
+    .servico-tag {
+      display: inline-block;
+      background: rgba(197,160,89,0.12); color: var(--gold);
+      font-size: 0.68rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase;
+      padding: 6px 14px; border-radius: 20px; margin-bottom: 1.2rem;
+    }
+    .servico-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem; color: var(--dark); margin-bottom: 1.2rem;
+    }
+    .servico-items { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .servico-items li {
+      font-size: 0.82rem; color: var(--text-light);
+      padding-left: 18px; position: relative;
+    }
+    .servico-items li::before {
+      content: '→'; position: absolute; left: 0;
+      color: var(--gold); font-size: 0.75rem;
+    }
+
+    /* ─── DEPOIMENTOS ─── */
+    #depoimentos { background: var(--bg); }
+
+    .depoimentos-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem; margin-top: 2.5rem;
+    }
+
+    .depo-card {
+      background: var(--white);
+      border-radius: 16px; padding: 1.8rem;
+      border-left: 3px solid var(--gold);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .depo-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(197,160,89,0.15); }
+
+    .depo-quote {
+      font-size: 2rem; color: var(--gold); line-height: 1;
+      font-family: 'Playfair Display', serif; margin-bottom: 0.8rem;
+    }
+    .depo-text {
+      font-size: 0.83rem; line-height: 1.7; color: var(--text);
+      margin-bottom: 1rem;
+    }
+    .depo-author {
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--gold);
+    }
+
+    /* ─── CURSO ─── */
+    #curso {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2720 100%);
+      color: var(--white);
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 5rem; align-items: center;
+    }
+    #curso .section-title { color: var(--white); }
+    #curso .section-label { color: var(--gold-light); }
+
+    .curso-desc {
+      font-size: 0.9rem; line-height: 1.8;
+      color: rgba(255,255,255,0.7); margin-bottom: 2rem;
+    }
+    .curso-preco {
+      display: inline-block;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem; color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+    .curso-preco small { font-size: 1rem; font-family: 'Montserrat', sans-serif; }
+
+    .curso-modulos { list-style: none; margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+    .curso-modulos li {
+      display: flex; gap: 12px; align-items: flex-start;
+      font-size: 0.83rem; color: rgba(255,255,255,0.8);
+    }
+    .curso-modulos li span {
+      background: rgba(197,160,89,0.2); color: var(--gold);
+      border-radius: 50%; width: 26px; height: 26px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; font-weight: 700; flex-shrink: 0;
+    }
+
+    .curso-img {
+      width: 100%; border-radius: 20px;
+      aspect-ratio: 4/5; object-fit: cover;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    /* ─── CONTATO ─── */
+    #contato {
+      background: var(--white);
+      text-align: center;
+    }
+    #contato .section-divider { margin: 0 auto 2rem; }
+
+    .contato-sub {
+      font-size: 0.9rem; color: var(--text-light);
+      max-width: 480px; margin: 0 auto 2.5rem;
+      line-height: 1.7;
+    }
+
+    .contato-btns {
+      display: flex; gap: 1.2rem;
+      justify-content: center; flex-wrap: wrap;
+    }
+
+    .whatsapp-btn {
+      background: #25D366; color: var(--white);
+      padding: 16px 36px; border-radius: 40px;
+      text-decoration: none; font-size: 0.8rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      display: inline-flex; align-items: center; gap: 10px;
+      transition: all 0.3s;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.35);
+    }
+    .whatsapp-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(37,211,102,0.5); }
+    .whatsapp-btn svg { width: 20px; height: 20px; fill: white; }
+
+    .insta-btn {
+      background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+      color: var(--white);
+      padding: 16px 36px; border-radius: 40px;
+      text-decoration: none; font-size: 0.8rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      display: inline-flex; align-items: center; gap: 10px;
+      transition: all 0.3s;
+    }
+    .insta-btn:hover { transform: translateY(-3px); opacity: 0.9; }
+
+    .atendimento-info {
+      margin-top: 3rem;
+      display: flex; justify-content: center; gap: 3rem;
+      flex-wrap: wrap;
+    }
+    .atend-item {
+      text-align: center;
+    }
+    .atend-item .icon {
+      font-size: 1.8rem; margin-bottom: 0.5rem;
+    }
+    .atend-item strong {
+      display: block; font-family: 'Playfair Display', serif;
+      font-size: 1rem; color: var(--dark); margin-bottom: 0.2rem;
+    }
+    .atend-item span {
+      font-size: 0.78rem; color: var(--text-light);
+    }
+
+    /* ─── RODAPÉ ─── */
+    footer {
+      background: var(--dark); color: rgba(255,255,255,0.5);
+      text-align: center; padding: 2rem 5%;
+      font-size: 0.72rem; letter-spacing: 0.08em;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+
+    /* ─── SCROLL REVEAL ─── */
+    .reveal {
+      opacity: 0; transform: translateY(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* ─── PLACEHOLDER DE IMAGEM ─── */
+    .img-placeholder {
+      background: linear-gradient(135deg, #e8e0d0, #d8d0c4);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-light); font-size: 0.75rem; letter-spacing: 0.1em;
+    }
+
+    /* ─── RESPONSIVO ─── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .hero-content { width: 100%; padding: 0 6%; }
+      .hero-img { display: none; }
+      #sobre { grid-template-columns: 1fr; gap: 3rem; }
+      .servicos-grid { grid-template-columns: 1fr; }
+      .depoimentos-grid { grid-template-columns: 1fr; }
+      #curso { grid-template-columns: 1fr; gap: 2.5rem; padding: 60px 6%; }
+      .curso-img { display: none; }
+      .visao-fotos { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 600px) {
+      section { padding: 60px 5%; }
+      .hero-content { padding: 0 5%; }
+      .atendimento-info { gap: 1.5rem; }
+      .visao-fotos { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">
+    <img src="https://i.ibb.co/kgptwwRV/image-Pippit-202603130812.png" alt="Danielle Apolinário — Fisioterapia Pélvica e Pilates" style="height:52px; width:auto; display:block;" />
+  </a>
+  <ul class="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#curso">Curso</a></li>
+  </ul>
+  <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." class="nav-cta" target="_blank">Agendar Consulta</a>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-tag">✦ Toledo - PR &nbsp;|&nbsp; Presencial e Online</div>
+    <h1 class="hero-title">
+      Força, equilíbrio<br>
+      e <em>função</em><br>
+      <em>restaurada.</em>
+    </h1>
+    <p class="hero-sub">Especialista em Fisioterapia Pélvica & Pilates Clássico em <strong>Toledo - PR</strong>. Transformando vidas através do movimento — inclusive na gestação e no pós-parto. Atendimento presencial e online para todo o Brasil.</p>
+    <div class="hero-btns">
+      <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." class="btn-primary" target="_blank">
+        ✦ Agendar Consulta
+      </a>
+      <a href="#servicos" class="btn-outline">Ver Serviços</a>
+    </div>
+  </div>
+
+  <!-- Foto da Dani — substituir pela URL real após upload no ImgBB -->
+  <img
+    src="https://i.ibb.co/rRkxTb3B/image-Pippit-202603130739.png"
+    alt="Danielle Apolinário fisioterapeuta pélvica e instrutora de Pilates em Toledo PR"
+    class="hero-img"
+    onerror="this.style.display='none'"
+  />
+
+
+</section>
+
+<!-- ═══ SOBRE ═══ -->
+<section id="sobre">
+  <div class="sobre-img-wrap reveal">
+    <img
+      src="https://i.ibb.co/yFJd3tLj/image-Pippit-202603130755.png"
+      alt="Danielle Apolinário — Fisioterapeuta Pélvica e Instrutora de Pilates Clássico em Toledo PR"
+      class="sobre-img"
+      onerror="this.style.background='#e8e0d0'; this.style.display='block'; this.style.minHeight='400px';"
+    />
+    <div class="sobre-badge">
+      <strong>+</strong>
+      <span>Pélvica & Pilates</span>
+    </div>
+  </div>
+
+  <div>
+    <p class="section-label reveal">Sobre mim</p>
+    <h2 class="section-title reveal reveal-delay-1">Fisioterapeuta Pélvica<br>e <em>Instrutora de Pilates</em></h2>
+    <div class="section-divider reveal reveal-delay-2"></div>
+    <p class="reveal reveal-delay-2" style="font-size:0.88rem; line-height:1.8; color:var(--text-light);">
+      O cuidado com a pelve influencia diretamente na sua qualidade de vida, no prazer e na continência. O Pilates Clássico é uma ferramenta poderosa para fortalecer, equilibrar e conectar corpo e mente — inclusive na gestação e no pós-parto.
+    </p>
+    <p style="font-size:0.88rem; line-height:1.8; color:var(--text-light); margin-top:1rem;" class="reveal reveal-delay-3">
+      Meu trabalho une essas duas áreas com <strong style="color:var(--dark)">escuta atenta e atendimento personalizado</strong>, devolvendo a você a conexão com o próprio corpo e libertando-a da dor, desconforto e limitações.
+    </p>
+    <ul class="formacao-list reveal reveal-delay-3">
+      <li>Graduação em Fisioterapia — Universidade Estadual do Oeste do Paraná (UNIOESTE)</li>
+      <li>Pós-Graduação em Fisioterapia Pélvica e Uroginecológica — Inspirar</li>
+      <li>Formação Completa em Pilates Clássico — Programa Dive In Corpus, 3ª Geração</li>
+      <li>Formada nos 3 níveis de LPF (Low Pressure Fitness)</li>
+    </ul>
+    <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Quero%20saber%20mais%20sobre%20os%20atendimentos." class="btn-primary reveal reveal-delay-4" style="margin-top:2rem; display:inline-flex;" target="_blank">
+      Falar com a Danielle
+    </a>
+  </div>
+</section>
+
+<!-- ═══ VISÃO ═══ -->
+<section id="visao">
+  <p class="section-label reveal" style="text-align:center;">Nossa Visão</p>
+  <p class="visao-text reveal">
+    "Não é só exercício —
+    é recuperar a <strong>autonomia</strong> sobre o próprio corpo.
+    Quando a mente entende que o movimento é seguro,
+    o corpo responde com leveza."
+  </p>
+  <div class="visao-fotos">
+    <div class="visao-foto reveal reveal-delay-1"><img src="https://i.ibb.co/DgpQPmkY/image-Pippit-202603130757.png" alt="Fisioterapia pélvica Toledo PR — avaliação do assoalho pélvico" loading="eager" fetchpriority="high" /></div>
+    <div class="visao-foto reveal reveal-delay-2"><img src="https://i.ibb.co/Q5GgvFG/image-Pippit-202603130759.png" alt="Pilates clássico Toledo PR — aula no aparelho Reformer" loading="eager" fetchpriority="high" /></div>
+    <div class="visao-foto reveal reveal-delay-3"><img src="https://i.ibb.co/HTHK1PtG/image-Pippit-202603130803.png" alt="Fisioterapia pélvica para gestantes Toledo PR" loading="eager" fetchpriority="high" /></div>
+    <div class="visao-foto reveal reveal-delay-4"><img src="https://i.ibb.co/ccCYcXVZ/image-Pippit-202603130805.png" alt="Resultado fisioterapia pélvica e pilates — paciente satisfeita" loading="eager" fetchpriority="high" /></div>
+  </div>
+</section>
+
+<!-- ═══ SERVIÇOS ═══ -->
+<section id="servicos">
+  <p class="section-label reveal">Como posso te ajudar?</p>
+  <h2 class="section-title reveal reveal-delay-1">Serviços <em>Especializados</em></h2>
+  <div class="section-divider reveal reveal-delay-2"></div>
+
+  <div class="servicos-grid">
+    <div class="servico-card reveal reveal-delay-1">
+      <div class="servico-tag">Fisioterapia Pélvica</div>
+      <h3 class="servico-title">Saúde Pélvica Feminina</h3>
+      <ul class="servico-items">
+        <li>Dor na relação (dispareunia)</li>
+        <li>Gestação, parto e pós-parto</li>
+        <li>Incontinência urinária e fecal</li>
+        <li>Pré e pós cirúrgico</li>
+        <li>Endometriose</li>
+      </ul>
+      <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Tenho%20interesse%20em%20Fisioterapia%20Pélvica." class="btn-primary" style="margin-top:1.8rem; font-size:0.72rem; padding:12px 24px;" target="_blank">Agendar →</a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-2">
+      <div class="servico-tag">Pilates Clássico</div>
+      <h3 class="servico-title">Pilates para Todos</h3>
+      <ul class="servico-items">
+        <li>Pilates clássico na gestação</li>
+        <li>Condicionamento físico</li>
+        <li>Prevenção e alívio de dores</li>
+        <li>Promoção de equilíbrio físico e mental</li>
+      </ul>
+      <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Tenho%20interesse%20em%20Pilates%20Clássico." class="btn-primary" style="margin-top:1.8rem; font-size:0.72rem; padding:12px 24px;" target="_blank">Agendar →</a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-3">
+      <div class="servico-tag">Sessões Online</div>
+      <h3 class="servico-title">Atendimento Remoto</h3>
+      <ul class="servico-items">
+        <li>Pilates online para gestantes</li>
+        <li>Avaliação e orientação individual</li>
+        <li>Exercícios guiados em vídeo</li>
+        <li>Acompanhamento personalizado</li>
+      </ul>
+      <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Tenho%20interesse%20em%20sessões%20online." class="btn-primary" style="margin-top:1.8rem; font-size:0.72rem; padding:12px 24px;" target="_blank">Quero Online →</a>
+    </div>
+
+    <div class="servico-card reveal reveal-delay-4" style="grid-column: 1 / -1;">
+      <div class="servico-tag">Pré-avaliação Gestantes</div>
+      <h3 class="servico-title" style="margin-bottom:1.8rem;">Preencha antes da sua <em style="color:var(--gold)">primeira sessão</em></h3>
+
+      <div id="form-avaliacao" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem 2rem;">
+        <div class="form-group">
+          <label>Nome completo *</label>
+          <input type="text" id="f-nome" placeholder="Seu nome completo" />
+        </div>
+        <div class="form-group">
+          <label>Data de nascimento *</label>
+          <input type="date" id="f-nasc" />
+        </div>
+        <div class="form-group">
+          <label>WhatsApp *</label>
+          <input type="tel" id="f-whats" placeholder="(xx) 9xxxx-xxxx" />
+        </div>
+        <div class="form-group">
+          <label>Cidade / Estado *</label>
+          <input type="text" id="f-cidade" placeholder="Ex: Toledo - PR" />
+        </div>
+        <div class="form-group">
+          <label>Semana de gestação *</label>
+          <input type="text" id="f-semana" placeholder="Ex: 20 semanas" />
+        </div>
+        <div class="form-group">
+          <label>Primeira gestação? *</label>
+          <select id="f-primeira">
+            <option value="">Selecione</option>
+            <option>Sim</option>
+            <option>Não</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Realiza pré-natal regularmente? *</label>
+          <select id="f-prenatal">
+            <option value="">Selecione</option>
+            <option>Sim</option>
+            <option>Não</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Já fez Pilates ou Fisioterapia Pélvica? *</label>
+          <select id="f-experiencia">
+            <option value="">Selecione</option>
+            <option>Sim</option>
+            <option>Não</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Preferência de atendimento *</label>
+          <select id="f-tipo">
+            <option value="">Selecione</option>
+            <option>Individual</option>
+            <option>Em dupla</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Disponibilidade de horário *</label>
+          <select id="f-horario">
+            <option value="">Selecione</option>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </div>
+        <div class="form-group" style="grid-column:1/-1;">
+          <label>Possui alguma intercorrência ou condição de risco?</label>
+          <textarea id="f-obs" placeholder="Descreva se houver alguma condição especial..." rows="3"></textarea>
+        </div>
+      </div>
+
+      <button onclick="enviarFormWhatsApp()" class="btn-primary" style="margin-top:1.8rem; border:none; cursor:pointer; font-size:0.78rem;">
+        ✦ Enviar pelo WhatsApp
+      </button>
+      <p style="font-size:0.72rem; color:var(--text-light); margin-top:0.8rem;">Ao clicar, o WhatsApp da Dani abrirá com suas respostas já preenchidas.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .form-group { display:flex; flex-direction:column; gap:6px; }
+  .form-group label { font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-light); }
+  .form-group input, .form-group select, .form-group textarea {
+    border: 1.5px solid #e8e0d8; border-radius:10px;
+    padding: 10px 14px; font-family:'Montserrat',sans-serif; font-size:0.83rem;
+    background:var(--bg); color:var(--dark); outline:none;
+    transition: border-color 0.3s;
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: var(--gold);
+  }
+  .form-group textarea { resize:vertical; }
+  @media(max-width:600px){ #form-avaliacao { grid-template-columns:1fr !important; } }
+</style>
+
+<!-- ═══ DEPOIMENTOS ═══ -->
+<section id="depoimentos">
+  <p class="section-label reveal">Resultados Reais</p>
+  <h2 class="section-title reveal reveal-delay-1">O que dizem<br>minhas <em>pacientes</em></h2>
+  <div class="section-divider reveal reveal-delay-2"></div>
+
+  <div class="depoimentos-grid">
+    <div class="depo-card reveal reveal-delay-1">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Além do foco nas minhas dores da lombar, a dinâmica de fazer movimentar o corpo todo com o auxílio nos ajustes faz com que sinta mais esses locais que não costumo sentir. Nisso parece que deu mais firmeza em fazer as coisas do dia a dia e também na prática de esportes.</p>
+      <div class="depo-author">Paciente — Pilates Clássico</div>
+    </div>
+
+    <div class="depo-card reveal reveal-delay-2">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Dani, você é sensacional! Muito obrigada por tudo. Você é uma profissional excelente e uma pessoa incrível! Nem sei como agradecer por tudo.</p>
+      <div class="depo-author">Paciente — Fisioterapia Pélvica</div>
+    </div>
+
+    <div class="depo-card reveal reveal-delay-3">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Fiquei muito feliz com a primeira aula. Você de cara conseguiu identificar os pontos que tenho dificuldade. Estou muito contente que finalmente encontrei a atividade física que vai me ajudar nisso.</p>
+      <div class="depo-author">Paciente — Primeira Aula</div>
+    </div>
+
+    <div class="depo-card reveal reveal-delay-1">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Bom dia Dra, a noite foi tranquila. Não tive qualquer escapadinha. Tudo sequinho.</p>
+      <div class="depo-author">Paciente — Incontinência Urinária</div>
+    </div>
+
+    <div class="depo-card reveal reveal-delay-2">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Fiquei muito preocupada, mas foi tudo super tranquilo. DEU TUDO CERTO! Eu nem acredito de verdade mesmo.</p>
+      <div class="depo-author">Paciente — Saúde Pélvica</div>
+    </div>
+
+    <div class="depo-card reveal reveal-delay-3">
+      <div class="depo-quote">"</div>
+      <p class="depo-text">Oii Dani, só passando para dar um feedback. Você de cara conseguiu identificar os pontos que me atrapalham muito. Finalmente encontrei a atividade física que vai me ajudar!</p>
+      <div class="depo-author">Paciente — Avaliação Inicial</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CURSO ═══ -->
+<section id="curso">
+  <div>
+    <img src="https://i.ibb.co/kgptwwRV/image-Pippit-202603130812.png" alt="Danielle Apolinário" style="height:60px; width:auto; margin-bottom:1.8rem; filter:brightness(0) invert(1); display:block;" class="reveal" />
+    <p class="section-label reveal">Curso Online</p>
+    <h2 class="section-title reveal reveal-delay-1">Movimento Inteligente<br>na <em>Gestação</em></h2>
+    <div class="section-divider reveal reveal-delay-2"></div>
+    <p class="curso-desc reveal reveal-delay-2">
+      Pilates e Musculação sem colocar seu bebê em risco. Criado especialmente para gestantes por uma fisioterapeuta e instrutora de pilates especializada em saúde da gestante.
+    </p>
+    <ul class="curso-modulos reveal reveal-delay-3">
+      <li>
+        <span>1</span>
+        <div><strong style="color:rgba(255,255,255,0.9)">Pilates na Gestação</strong><br>Fortalecimento, controle e estabilidade com segurança total para gestantes.</div>
+      </li>
+      <li>
+        <span>2</span>
+        <div><strong style="color:rgba(255,255,255,0.9)">Musculação para Gestantes</strong><br>Treinos de membros inferiores e superiores adaptados a cada fase da gestação.</div>
+      </li>
+    </ul>
+    <div class="reveal reveal-delay-4">
+      <div class="curso-preco"><small>por apenas </small>R$ 97</div>
+      <a href="https://hotmart.com/pt-br/marketplace/produtos/pilates-e-musculacao-sem-colocar-seu-bebe-em-risco/P99316562I" class="btn-primary" target="_blank" style="display:inline-flex;">
+        ✦ Quero o Curso
+      </a>
+    </div>
+  </div>
+
+  <div class="reveal reveal-delay-2">
+    <img
+      src="https://i.ibb.co/ccvj3LkB/image-Pippit-202603130818.png"
+      alt="Curso online pilates e musculação para gestantes — Danielle Apolinário Toledo PR"
+      class="curso-img"
+      onerror="this.style.display='none'"
+    />
+  </div>
+</section>
+
+<!-- ═══ CONTATO ═══ -->
+<section id="contato">
+  <p class="section-label reveal">Vamos conversar?</p>
+  <h2 class="section-title reveal reveal-delay-1">Entre em <em>Contato</em></h2>
+  <div class="section-divider reveal"></div>
+  <p class="contato-sub reveal reveal-delay-2">Atendimento presencial e online. Agende sua consulta e dê o primeiro passo para viver sem dores.</p>
+
+  <div class="contato-btns reveal reveal-delay-3">
+    <a href="https://wa.me/5545999180697?text=Olá%20Danielle!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." class="whatsapp-btn" target="_blank">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp (45) 99918-0697
+    </a>
+    <a href="https://instagram.com/fisiodaniapolinarioo" class="insta-btn" target="_blank">
+      📸 @fisiodaniapolinarioo
+    </a>
+  </div>
+
+  <div class="atendimento-info reveal reveal-delay-4">
+    <div class="atend-item">
+      <div class="icon">📍</div>
+      <strong>Toledo - PR</strong>
+      <span>Atendimento presencial</span>
+    </div>
+    <div class="atend-item">
+      <div class="icon">💻</div>
+      <strong>Online</strong>
+      <span>Todo o Brasil</span>
+    </div>
+    <div class="atend-item">
+      <div class="icon">🤰</div>
+      <strong>Gestantes</strong>
+      <span>Atendimento especializado</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ RODAPÉ ═══ -->
+<footer>
+  <img src="https://i.ibb.co/kgptwwRV/image-Pippit-202603130812.png" alt="Danielle Apolinário" style="height:48px; width:auto; margin-bottom:1rem; filter:brightness(0) invert(0.6); display:block; margin-left:auto; margin-right:auto;" />
+  <p>© 2025 Danielle Apolinário — Fisioterapia Pélvica e Pilates &nbsp;|&nbsp; Desenvolvido por <a href="https://instagram.com/sannkendihali" target="_blank">DI-HALI DIGITAL</a></p>
+</footer>
+
+<script>
+  // Formulário → WhatsApp
+  function enviarFormWhatsApp() {
+    const get = id => document.getElementById(id)?.value?.trim() || '—';
+    const nome = get('f-nome');
+    const nasc = get('f-nasc');
+    const whats = get('f-whats');
+    const cidade = get('f-cidade');
+    const semana = get('f-semana');
+    const primeira = get('f-primeira');
+    const prenatal = get('f-prenatal');
+    const exp = get('f-experiencia');
+    const tipo = get('f-tipo');
+    const horario = get('f-horario');
+    const obs = get('f-obs') || 'Nenhuma';
+
+    if (!nome || nome==='—' || !whats || whats==='—') {
+      alert('Por favor, preencha ao menos seu nome e WhatsApp.');
+      return;
+    }
+
+    const msg = `🌸 *PRÉ-AVALIAÇÃO GESTANTE*\n\n`
+      + `👤 *Nome:* ${nome}\n`
+      + `🎂 *Nascimento:* ${nasc}\n`
+      + `📱 *WhatsApp:* ${whats}\n`
+      + `📍 *Cidade:* ${cidade}\n\n`
+      + `🤰 *Semana de gestação:* ${semana}\n`
+      + `🔁 *Primeira gestação:* ${primeira}\n`
+      + `🏥 *Faz pré-natal:* ${prenatal}\n`
+      + `🧘 *Experiência anterior:* ${exp}\n\n`
+      + `📅 *Tipo de atendimento:* ${tipo}\n`
+      + `⏰ *Disponibilidade:* ${horario}\n\n`
+      + `📋 *Intercorrências:* ${obs}`;
+
+    window.open('https://wa.me/5545999180697?text=' + encodeURIComponent(msg), '_blank');
+  }
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // Navbar scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Mobile menu
+  function toggleMenu() {
+    const links = document.querySelector('.nav-links');
+    links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '70px';
+    links.style.left = '0';
+    links.style.width = '100%';
+    links.style.background = 'var(--bg)';
+    links.style.padding = '1.5rem 5%';
+    links.style.gap = '1.2rem';
+    links.style.boxShadow = '0 8px 20px rgba(0,0,0,0.1)';
+  }
+</script>
+</body>
+</html>
